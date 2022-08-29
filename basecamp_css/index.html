@@ -6,17 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trilha de CSS</title>
     <style>
-        h1, p, div {
+        p, div {
             color: red;
+        }
+
+        .texto {
+            color: blue;
+        }
+        li li {
+            color: green;
+        }
+
+        #lista-01 li {
+            background-color: yellow;
         }
     </style>
 </head>
 <br>
-    <h1>Agrupamento de seletores</h1>
+    <h1 id="texto">Agrupamento de seletores</h1>
     <p>Pódemos aplicar as mesmas regras CSS para vários seletores diferentes. Para isso, podemos separar os seletores usando uma virgula.</p>
     <div>Assim não precisamos ficar copiando e colando os mesmos códigos para todos, nós podemos fazer uim só bloco de CSS e reutilizar as mesmas regras!</div>
 
     <br><br>
     <a id="Link-referencia" href="#">Clique para ver a documentação</a>
+
+    <ul>
+        <li class="fundo-verde" id="lista-01">
+            <div>Item 1</div>
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li class="fundo-verde" id="lista-01">
+            <div>Item 2</div>
+            <ul>
+                <li>subitem3</li>
+                <li>subitem4</li>
+            </ul>
+        </li>
+        <li class="fundo-verde" id="lista-01">
+            <div>Item 3</div>
+            <ul>
+                <li>subitem5</li>
+                <li>subitem6</li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        <label for="id_nome">Nome:</label><input type="text" name="name"><br>
+        <label for="id_idade">Idade:</label><input type="number" name="number"><br>
+        <label for="id_senha">Password:</label><input type="password" name="password"><br>
+
+        <button type="button" onmouseover="alert('passei aqui')">Clique</button>
+    </form>
+
+    <form onsubmit="" method="get">
+        <label for=""></label>Nome:<input type="text" name="name"><br>
+        <label for="">Cargo:</label>
+        <select name="role">
+            <option value="">Selecione o cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select>
+        <br>
+        <label for="">Assunto:</label><input type="text" name="subject"><br>
+        <label for="">Mensagem</label>
+        <textarea rows="20" cols="50" name="subject"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

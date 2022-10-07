@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica</title>
+    <style>
+        table tr:hover td {
+            background-color: rgba(20, 111, 231, 0.692);
+            opacity: 1;
+            border: dotted 1px black solid;
+        }
+        table {
+            background-color: rgb(21, 206, 144);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,12 +35,38 @@
         <table summary="uma tabela de serviços e seus respectivos preços que a clincia oferece com seus horários">
             <caption>Tabela de serviços</caption>
             <tbody>
-                <tr>
-                    <th></th>
-                    <th></th>
+                <tr id="1">
+                    <th title="Servicos">Servicos</th>
+                    <th id="Semana">Segunda a sexta</th>
+                    <th id="final de semana">Sabádos</th>
+                    <th id="feriados">Feriados</th>
+                </tr>
+                <tr id="2">
+                    <td title="Clinca">Clinica geral</td>
+                    <td id="horarioSemana">08h - 15h</td>
+                    <td id="horarioSabado">08h - 14h</td>
+                    <td id="horarioFeriados">08h - 14h</td>
+                </tr>
+                <tr id="3">
+                    <td title="Clinca">Clinica geral</td>
+                    <td id="horarioSemana">08h - 15h</td>
+                    <td id="horarioSabado">08h - 14h</td>
+                    <td id="horarioFeriados">08h - 14h</td>
+                </tr>
+                <tr id="4">
+                    <td title="Pediatria">Pediatria</td>
+                    <td id="horarioSemana">08h - 15h</td>
+                    <td id="horarioSabado">08h - 14h</td>
+                </tr>
+                <tr id="5">
+                    <td title="Oftalmologia">Oftalmologia</td>
+                    <td id="horarioSemana">08h - 15h</td>
+                    <td id="horarioSabado">08h - 14h</td>
                 </tr>
             </tbody>
         </table>
+
+        <p>Contato</p>
     </content>
 
     <footer>

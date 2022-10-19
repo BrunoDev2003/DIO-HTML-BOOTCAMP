@@ -14,15 +14,17 @@ a {color: blue; text-decoration: none}
     grid-gap: 3rem;
     max-width: 90%;
     grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,16rem) minmax(0,2.5fr) minmax(0,15rem);
+    grid-template-columns: minmax(0,16rem) minmax(0,2.5fr) minmax(0,12rem);
     margin-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
 
 }
 
-.footer {
-    min-height: 100px;
+footer {
+    display: flex;
+    justify-content: center;
+    min-height: 35px;
     border-top: 1px solid #cdcdcd;
     
 }
@@ -33,7 +35,7 @@ a {color: blue; text-decoration: none}
 }
 
 .sidebar {
-    border-top: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
 }
 
 figure {

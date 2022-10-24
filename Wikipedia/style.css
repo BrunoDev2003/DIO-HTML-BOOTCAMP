@@ -9,6 +9,10 @@ a {color: blue; text-decoration: none}
     border-top: 1px solid #cdcdcd;
 }
 
+table {
+    border: dotted 1px solid black;
+}
+
 .content {
     display: grid;
     grid-gap: 3rem;
